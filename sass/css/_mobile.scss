@@ -1,0 +1,108 @@
+@media(max-width:576px){
+    .top{
+        height: auto;
+        text-align: center;
+        .left{
+          
+            .top-ngonngu{
+                
+                .cacngonngu{
+                   
+                    margin-left: auto;
+                    margin-right: auto;
+                    a{
+                      
+                        color:white;
+                    }
+                }
+            }
+        }
+       
+    }
+    //end top
+    .menuandlogo{
+        height:auto;
+        .navbar{
+            height:auto;
+            .timkiem{
+                padding-top: 10px;
+                padding-right: 10px;
+                justify-content: center!important;
+                input{
+                    width: auto!important;
+                }
+            }
+                ul.navbar-nav{
+                    
+                    margin:0px;
+                    padding:0px;
+                   
+
+                    li.nav-item{
+        
+                        a.nav-link{
+                           text-align: center;
+                           border-bottom: 1px dashed #cfcfcf;
+                           line-height: 40px;
+                           
+                        }
+                   
+                    }
+                }
+    
+        }
+    }
+    .tieude{
+        border-top: 1px solid #1abc9c;
+        border-bottom: 1px solid #1abc9c;
+
+        height: auto;
+        .left{
+            text-align: center;
+           
+        }
+        .right{
+            
+            .breadcrumb{
+                justify-content: center!important;
+          
+            }
+        }
+    }
+}
+
+@media(max-width:992px)
+{
+    .menuandlogo{
+        height:auto;
+        
+        .navbar{
+            height:auto;
+            .timkiem{
+                margin-top: 10px;
+                margin-right: 10px;
+                justify-content: center!important;
+                input{
+                    width: auto!important;
+                }
+            }
+                ul.navbar-nav{
+                    margin:0px;
+                    padding:0px;
+          
+                    li.nav-item{
+                 
+                        a.nav-link{
+                           text-align: center;
+                           border-bottom: 1px dashed #cfcfcf;
+                           line-height: 40px;
+                           
+                        }
+                    
+                    }
+                   
+                }
+
+        }
+    }
+}

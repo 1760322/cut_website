@@ -1,0 +1,184 @@
+//color
+$mauBgTop: #2c3e50;
+$mauFont: white;
+$mauBgShop: #21303f;
+$mauBgIconShop: #1abc9c;
+//anh su dung trong giao dien
+$anhLogo: "img/logo.png";
+$heightLogo: 45px;
+//font
+$fontChu:'Lato', sans-serif;
+//fontSize
+$sizeSmall: 13px;
+$sizeMedium: 14px;
+$sizeLarge: 15px;
+.top{
+    background-color: $mauBgTop;
+    height: 50px;
+    line-height: 50px;
+    color:$mauFont;
+    .left{
+        z-index: 3;
+        .top-ngonngu{
+            z-index: 3;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: $sizeMedium;
+            font-family: $fontChu;
+            b{
+                i{
+                    padding-left:10px;
+                }
+            }
+            .cacngonngu{
+                z-index: 3;
+                text-align: center;
+                width: 150px;
+                border: 1px solid $mauBgIconShop;
+                a{
+                    text-decoration: none;
+                    background-color: #2c3e50;
+                    border-bottom: 1px solid $mauBgIconShop;
+                    display:block;
+                    color:$mauFont
+                }
+                a:hover{
+                    background: $mauBgIconShop;
+                }
+                
+            }
+        }
+    }
+    .right{
+
+        .nut{
+            display: inline;
+            a.btn{
+                text-decoration: none;
+                background-color: $mauBgShop;
+                font-size: $sizeSmall;
+                font-family: $fontChu;
+                font-weight: bold;
+                padding: auto 10px;
+                border: none;
+                i{
+                    color:$mauBgIconShop;
+                    padding-right:6px;
+                }
+            }
+        }
+        .caclink{
+            display:inline;
+            a{
+                text-decoration: none;
+                color:white;
+                padding-left: 16px;
+                font-size:$sizeSmall;
+            }
+            a:hover{
+                color:$mauBgIconShop;
+            }
+        }
+    }
+}
+
+.menuandlogo{
+
+    z-index: 1;
+    height:90px;
+   
+    .navbar{
+        z-index: 1;
+        margin:0px;
+        padding:0px;
+        height:90px;
+     
+        .navbar-brand{
+            z-index: 1;
+            img{
+                width: 100%;
+            }
+        }
+        .timkiem{
+            flex-flow: nowrap;
+            input{
+                width:100px!important;
+            }
+            
+        }
+        ul.navbar-nav{
+            margin:0px;
+            padding:0px;
+            li.nav-item{
+                
+                a.nav-link{
+                    
+                    margin:0px;
+                    padding:0px;
+                    padding-left:10px;
+                    padding-right: 10px;
+                
+                    font-weight:900;
+                    color:$mauBgTop;
+                    font-size:$sizeLarge;
+                    text-transform: uppercase;
+                }
+                a.nav-link:hover{
+                    color:$mauBgIconShop;
+                }
+            }
+        }
+    }
+}
+// end menu va logo
+.tieude{
+    height: 120px;
+    line-height: 120px;
+    background: #ffffff;
+    position: relative;
+    &:after{
+        content:'';
+        width:100%;
+        position: absolute;
+        height:40px;
+        top:0;
+        background-image: -webkit-linear-gradient(top, #cccccc6b, white);    }
+    .left{
+        b{
+            font-family: $fontChu;
+            font-size:30px;
+            font-weight: 400;
+            button{
+                color:#a1b1bc;
+                border: 1px solid #ecf0f1;
+            }
+        }
+
+    }
+    .right{
+        .breadcrumb{
+            background: none;
+            width: 100%;
+            padding:0;
+            margin:0;
+            a.breadcrumb-item{
+                text-decoration: none;
+                font-size: 14px;
+                font-family: $fontChu;
+                color:#bbc6ce;
+                &:first-child:before{
+                    content:'';
+                }
+                &:before{
+                    content:"\f105";
+                    display:inline-block;
+                    font: normal normal 14px/1 FontAwesome;
+                    font-size:inherit;
+                    text-rendering: auto;
+                    -webkit-font-smoothing: antialiased;
+                }
+            }
+        }
+    }
+}
+@import "mobile";
