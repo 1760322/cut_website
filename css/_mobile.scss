@@ -3,7 +3,7 @@
         height: auto;
         text-align: center;
         .left{
-          
+            
             .top-ngonngu{
                 
                 .cacngonngu{
@@ -69,6 +69,15 @@
             }
         }
     }
+    .danhmuc{
+        .cacdanhmuc{
+            ._1danhmuc{
+               
+                margin-right: auto;
+                margin-left:auto;
+            }
+        }
+    }
 }
 
 @media(max-width:992px)
@@ -103,6 +112,15 @@
                    
                 }
 
+        }
+    }
+    .danhmuc{
+        .cacdanhmuc{
+            ._1danhmuc{
+               
+                margin-right: auto;
+                margin-left:auto;
+            }
         }
     }
 }
