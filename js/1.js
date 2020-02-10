@@ -13,4 +13,8 @@ $(function(){
         $('.timkiem').slideToggle();
     })
     new WOW().init();
+
+    
 })
+
+

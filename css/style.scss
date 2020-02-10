@@ -403,6 +403,194 @@ body{
         font-family: $fontChu;
        
     }
+    .danhsachtrang{
+        margin-top: 50px;
+        .btn{
+            border: 1px solid #dae0e2;
+            border-radius: 8px;
+        }
+      .btn:hover{
+          background-color: #1abc9c!important;
+      }
+      .active{
+        background-color: #1abc9c!important;
+
+      }
+    }
 }
 //end danhsachsanpham
+
+.list-logo{
+    margin-top:100px;
+    .carousel-inner{
+        .carousel-item{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .carousel-control-prev{
+        top:35%;
+        left: -100px;
+        width: 55px;
+        height:55px;
+        line-height: 50px;
+        background-color: #34495e;
+        .carousel-control-prev-icon {
+            filter: invert(100%);
+        }
+        &:hover{
+            background-color: #1abc9c;
+        }
+    }
+    .carousel-control-next{
+        top:35%;
+        right: -100px;
+
+        width: 55px;
+        height:55px;
+        line-height: 50px;
+        background-color: #34495e;
+        .carousel-control-next-icon{
+            filter: invert(100%);
+        }
+        &:hover{
+            background-color: #1abc9c;
+        }
+    }
+
+}
+//end logo
+.logan{
+    background-color: #a1b1bc;
+    height: auto;
+    line-height: 100px;
+    .text-center{
+        font-size:23px;
+        color:#eaedef;
+        font-weight: lighter;
+    }
+}
+//end logan
+.info{
+    background-color: #1a1c27;
+    .list-info{
+        padding-top:80px;
+        .more{
+            color:#6c7b86;
+            font-family: $fontChu;
+            p{
+                margin-top:40px;
+            }
+            a{
+                i{
+                    padding-right: 5px;
+                }
+                text-decoration: none;
+                color:#1a9e85;
+            }
+            .list-icon{
+                margin-top: 40px;
+                .box{
+                    box-sizing: border-box;
+                    display:flex;
+                    height: 30px;
+                    margin-bottom: 30px;
+                    .icon{
+                        margin-right: 10px;
+                        img{
+                            width: 30px;
+                        }
+                    }
+                    .text{
+                        h4{
+                            font-size:15px;
+                            font-weight: bold;
+                            padding:0px;
+                            margin:0px;
+                        }
+                        p{
+                           
+                            margin:0px;
+                        }
+                    }
+                }
+            
+            }
+        }
+        .product{
+            h6{
+                color:white;
+                font-family: $fontChu;
+                margin-bottom: 40px;
+                font-weight: bold;
+            }
+            .box{
+                margin-bottom:40px;
+                display:flex;
+                font-family: $fontChu;
+                color:white;
+                .left{
+                    margin-right:20px;
+
+                    img{
+                        width: 85px;
+                    }
+                }
+                .right{
+                    .card-title{
+                        margin-bottom:5px;
+
+                        a{
+                            color:white;
+                            font-family: $fontChu;
+                            font-size:15px;
+                        }
+     
+                     }
+                     .card-text{
+                        color:#a1b1bc;
+                        margin-bottom:5px;
+
+                     }
+                     .active{
+                         color:#1abc9c;
+                     }
+                     .price{
+                        margin:0px;
+                     }
+                }
+               
+            }
+        }
+        .contact{
+            h6{
+                color:white;
+                font-family: $fontChu;
+                margin-bottom: 40px;
+                font-weight: bold;
+            
+            }
+            .box{
+                margin-bottom: 40px;
+                h6{
+                    color:#a1b1bc;
+                    font-family: $fontChu;
+                    font-weight: bold;
+                    margin-bottom:20px;
+                    font-size:15px;
+                    font-weight: 500;
+                }
+                p{
+                    color:#63717b;
+                    font-family: $fontChu;
+                    font-size:13px;
+                }
+            }
+        }
+    }
+    
+
+}
+// info
 @import "mobile";

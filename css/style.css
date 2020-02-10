@@ -414,6 +414,211 @@ body {
   color: #a1b1bc;
 }
 
+.danhsachsanpham .danhsachtrang {
+  margin-top: 50px;
+}
+
+.danhsachsanpham .danhsachtrang .btn {
+  border: 1px solid #dae0e2;
+  border-radius: 8px;
+}
+
+.danhsachsanpham .danhsachtrang .btn:hover {
+  background-color: #1abc9c !important;
+}
+
+.danhsachsanpham .danhsachtrang .active {
+  background-color: #1abc9c !important;
+}
+
+.list-logo {
+  margin-top: 100px;
+}
+
+.list-logo .carousel-inner .carousel-item img {
+  width: 100%;
+}
+
+.list-logo .carousel-control-prev {
+  top: 35%;
+  left: -100px;
+  width: 55px;
+  height: 55px;
+  line-height: 50px;
+  background-color: #34495e;
+}
+
+.list-logo .carousel-control-prev .carousel-control-prev-icon {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.list-logo .carousel-control-prev:hover {
+  background-color: #1abc9c;
+}
+
+.list-logo .carousel-control-next {
+  top: 35%;
+  right: -100px;
+  width: 55px;
+  height: 55px;
+  line-height: 50px;
+  background-color: #34495e;
+}
+
+.list-logo .carousel-control-next .carousel-control-next-icon {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.list-logo .carousel-control-next:hover {
+  background-color: #1abc9c;
+}
+
+.logan {
+  background-color: #a1b1bc;
+  height: auto;
+  line-height: 100px;
+}
+
+.logan .text-center {
+  font-size: 23px;
+  color: #eaedef;
+  font-weight: lighter;
+}
+
+.info {
+  background-color: #1a1c27;
+}
+
+.info .list-info {
+  padding-top: 80px;
+}
+
+.info .list-info .more {
+  color: #6c7b86;
+  font-family: "Lato", sans-serif;
+}
+
+.info .list-info .more p {
+  margin-top: 40px;
+}
+
+.info .list-info .more a {
+  text-decoration: none;
+  color: #1a9e85;
+}
+
+.info .list-info .more a i {
+  padding-right: 5px;
+}
+
+.info .list-info .more .list-icon {
+  margin-top: 40px;
+}
+
+.info .list-info .more .list-icon .box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+.info .list-info .more .list-icon .box .icon {
+  margin-right: 10px;
+}
+
+.info .list-info .more .list-icon .box .icon img {
+  width: 30px;
+}
+
+.info .list-info .more .list-icon .box .text h4 {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+.info .list-info .more .list-icon .box .text p {
+  margin: 0px;
+}
+
+.info .list-info .product h6 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.info .list-info .product .box {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.info .list-info .product .box .left {
+  margin-right: 20px;
+}
+
+.info .list-info .product .box .left img {
+  width: 85px;
+}
+
+.info .list-info .product .box .right .card-title {
+  margin-bottom: 5px;
+}
+
+.info .list-info .product .box .right .card-title a {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+
+.info .list-info .product .box .right .card-text {
+  color: #a1b1bc;
+  margin-bottom: 5px;
+}
+
+.info .list-info .product .box .right .active {
+  color: #1abc9c;
+}
+
+.info .list-info .product .box .right .price {
+  margin: 0px;
+}
+
+.info .list-info .contact h6 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.info .list-info .contact .box {
+  margin-bottom: 40px;
+}
+
+.info .list-info .contact .box h6 {
+  color: #a1b1bc;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.info .list-info .contact .box p {
+  color: #63717b;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+}
+
 @media (max-width: 576px) {
   .top {
     height: auto;
@@ -499,6 +704,12 @@ body {
   .danhmuc .cacdanhmuc ._1danhmuc {
     margin-right: auto;
     margin-left: auto;
+  }
+  .list-logo .carousel-control-prev {
+    left: 0;
+  }
+  .list-logo .carousel-control-next {
+    right: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
